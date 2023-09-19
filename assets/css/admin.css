@@ -1,0 +1,180 @@
+  #eplp-plugin-container{
+    margin: 0 auto 0.625rem auto;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 1px rgba(200, 215, 225, 0.5), 0 1px 2px #e9eff3;
+    border: none;
+}
+.eplp-head {
+    background-color:#fff;
+    text-align:center;
+    box-shadow:0 1px 0 rgba(200,215,225,0.5),0 1px 2px #e9eff3;
+}
+@media (max-width: 45rem) {
+    .eplp-head {
+        padding:0 1.25rem
+    }
+}
+.eplp-head__inside-container {
+    padding:.375rem 0;
+    margin:0 auto;
+    width:100%;
+    max-width:45rem;
+    text-align: left;
+}
+.eplp-head__logo-container {
+    padding:.3125rem 0 0;
+    display: inline-flex;
+    text-align: justify;
+    align-content: space-between;
+}
+.eplp-head__logo-container p{
+    font-size: 18px;
+    margin-left: 10px;
+    line-height: 0px;
+}
+.eplp-head__logo-container:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.eplp-head__logo {
+    width: 2.5rem;
+    height:2.5rem;
+}
+.eplp-lower {
+    margin: 0 auto;
+    text-align: left;
+    max-width: 45rem;
+    padding: 1.5rem;
+}
+.eplp-lower .notice {
+    margin-bottom: 2rem;
+}
+.eplp-boxes .epl-box {
+    margin-bottom: 0;
+    padding: 0;
+    margin-top: -1px;
+}
+.eplp-boxes .epl-box:last-child {
+    margin-bottom: 1.5rem;
+}
+.eplp-boxes .epl-box:first-child {
+    margin-top: 1.5rem;
+}
+.eplp-box {
+    box-sizing: border-box;
+    background: white;
+    border: 1px solid rgba(200, 215, 225, 0.5);
+}
+.eplp-config{
+    padding: 30px;
+}
+.eplp-box .centered {
+    text-align: center;
+}
+.eplp-box-header {
+    max-width: 700px;
+    margin: 0 auto 30px auto;
+    line-height: 1.5;
+}
+.eplp-box-header h2 {
+    margin: 1.5rem 10% 0;
+    font-size: 1.375rem;
+    font-weight: 700;
+    color: #000;
+}
+.eplp-setup-instructions {
+    text-align: center;
+}
+.eplp-setup-instructions form {
+    padding-bottom: 1.5rem;
+}
+.eplp-enter-api-key-box{
+    margin: 1.5rem 0;
+}
+.eplp-box .enter-api-key {
+    margin-top: 1.5rem;
+}
+.eplp-box .enter-api-key p {
+    padding: 0 1.5rem;
+}
+.eplp-button, .eplp-button:hover, .eplp-button:visited {
+    background: white;
+    border-color: #c8d7e1;
+    border-style: solid;
+    border-width: 1px 1px 2px;
+    color: #2e4453;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0;
+    outline: 0;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 500;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 21px;
+    border-radius: 4px;
+    padding: 7px 14px 9px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.eplp-button:hover {
+    border-color: #a8bece;
+}
+.eplp-button:active {
+    border-width: 2px 1px 1px;
+}
+.eplp-faq-box {
+    margin: 1.5rem 22px!important;
+}
+.eplp-box-faq-header {
+    max-width: 700px!important;
+    margin: 0 auto 18px auto!important;
+    line-height: 1.5!important;
+}
+.eplp-setup-faq a{ 
+    text-decoration: none!important;
+    font-size: 16px!important;
+}
+.eplp-setup-faq{
+    margin-bottom: 18px!important;
+}
+/* success message css */
+.alert-success {
+    background-color: #d6f0e0;
+    color: #0d6832;
+    padding: 20px;
+    margin: 10px 10px;
+    font-size: 16px;
+}
+.alert {
+    border: 0;
+}
+.alert-error{
+    background-color: #f0dbd6;
+    color: #681f0d;
+    padding: 20px;
+    margin: 10px 10px;
+    font-size: 16px;
+}
+
+.eplp-setup-instructions p{
+    font-size: 16px;
+    font-weight: 500;
+    color:#0808098f;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ecb-help{
+    text-align:left!important;
+}
+
+
+
